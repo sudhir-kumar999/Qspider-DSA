@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class q6 {
+    public static void main(String[] args) {
+        // take 3 angle of a triangle and print is it valid or not
+        System.out.println("Enter value of all three angles");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b= sc.nextInt();
+        int c = sc.nextInt();
+        if((a>=0 && b>0 &&c>0 ) && (a+b+c==180)){
+            System.out.println("it is valid triangle");
+        } else{
+            System.out.println("it is not valid triangle");
+        }
+    }
+    
+}

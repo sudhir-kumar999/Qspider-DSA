@@ -1,0 +1,1 @@
+System.out.println("duplicate found"+" "+ch[i]);

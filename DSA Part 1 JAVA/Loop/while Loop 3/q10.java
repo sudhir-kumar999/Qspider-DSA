@@ -1,0 +1,16 @@
+
+public class q10 {
+    public static void main(String[] args) {
+        int n = 430705;
+        int countZero = 0;
+        while(n>0){
+            int rem = n%10;
+            if(rem==0){
+                countZero++;
+            }
+            n/=10;
+        }
+        System.out.println(countZero);
+    }
+    
+}
