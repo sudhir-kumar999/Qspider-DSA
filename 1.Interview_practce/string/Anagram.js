@@ -1,10 +1,14 @@
-function Anagram(){
-    const str1="eat"
-    const str2="tea"
-
-    return str1.split("").sort().join("")===str2.split("").sort().join("")
-
+function anagram(){
+    let str1="listen"
+    let str2="silent"
+    let newStr1=str1.split("").sort().join("")
+    let newStr2=str2.split("").sort().join("")
+    console.log(newStr1==newStr2)
 }
+// anagram()
 
-const res=Anagram()
-console.log(res)
+function anagram(){
+    let str1="silent"
+    let str2="listen"
+    
+}
